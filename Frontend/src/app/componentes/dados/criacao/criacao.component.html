@@ -1,0 +1,49 @@
+<mat-card >
+    <mat-card-title>
+        Novo Produto
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" 
+                [(ngModel)]="mercadoria.nome" name="name">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" 
+                [(ngModel)]="mercadoria.preco" name="preco">
+        </mat-form-field>
+        <mat-checkbox [(ngModel)]="mercadoria.emEstoque" name="emEstoque">
+            Em estoque
+        </mat-checkbox>
+        <mat-radio-group class='radio' [(ngModel)]="mercadoria.tensao" name="tensao">
+            Tensão
+            <mat-radio-button matInput value="110">
+                110
+            </mat-radio-button> 
+            <mat-radio-button  value="220">
+                220                
+            </mat-radio-button>
+        </mat-radio-group>
+        <mat-form-field appearance='fill'>
+        <mat-label>Cor</mat-label>
+        <mat-select [(ngModel)]="mercadoria.cor" name="cor">
+            <mat-option value='Branco'>Branco</mat-option>
+            <mat-option value='Azul'>Azul</mat-option>
+            <mat-option value='Verde'>Verde</mat-option>
+            <mat-option value='Prata'>Prata</mat-option>
+        </mat-select>
+        </mat-form-field>
+        
+        <input type='date' [(ngModel)]="mercadoria.data" name="data" class='data'>
+       
+            
+    </form>
+</mat-card>
+
+<button mat-raised-button (click)='criarMercadoria()' color='primary'>
+    Salvar
+</button>
+
+<button mat-raised-button (click)='cancelar()'>
+    Cancelar
+</button>

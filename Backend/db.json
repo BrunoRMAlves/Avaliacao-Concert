@@ -1,0 +1,100 @@
+{
+  "mercadorias": [
+    {
+      "nome": "Liquidificador",
+      "preco": "80",
+      "tensao": "110",
+      "emEstoque": true,
+      "cor": "Azul",
+      "data": "2021-01-24",
+      "id": 6
+    },
+    {
+      "nome": "Computador",
+      "preco": "2600",
+      "tensao": "110",
+      "emEstoque": true,
+      "cor": "Prata",
+      "data": "2021-01-24",
+      "id": 7
+    },
+    {
+      "nome": "Monitor",
+      "preco": "1250",
+      "tensao": "220",
+      "emEstoque": true,
+      "cor": "Branco",
+      "data": "2021-01-16",
+      "id": 8
+    },
+    {
+      "nome": "Geladeira",
+      "preco": "1680",
+      "tensao": "110",
+      "emEstoque": true,
+      "cor": "Prata",
+      "data": "2021-01-21",
+      "id": 10
+    },
+    {
+      "nome": "Carregador de Celular",
+      "preco": "80",
+      "tensao": "110",
+      "emEstoque": true,
+      "cor": "Prata",
+      "data": "2021-01-13",
+      "id": 11
+    },
+    {
+      "nome": "Roteador",
+      "preco": "150",
+      "tensao": "220",
+      "emEstoque": false,
+      "cor": "Azul",
+      "data": "2021-01-20",
+      "id": 12
+    },
+    {
+      "nome": "Aspirador de pó",
+      "preco": "340",
+      "tensao": "220",
+      "emEstoque": false,
+      "cor": "Prata",
+      "data": "2021-01-06",
+      "id": 13
+    },
+    {
+      "nome": "Fogão",
+      "preco": "940",
+      "tensao": "110",
+      "emEstoque": true,
+      "cor": "Verde",
+      "data": "2021-01-13",
+      "id": 14
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "abc",
+      "senha": 123456
+    },
+    {
+      "login": "concert",
+      "senha": "prova",
+      "id": 2
+    },
+    {
+      "login": "concert",
+      "senha": "prova",
+      "id": 3
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "José",
+      "idade": 35,
+      "valor_compra": 441
+    }
+  ]
+}
